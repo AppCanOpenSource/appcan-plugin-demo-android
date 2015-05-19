@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <!-- common use通用字符串 -->
+    <string name="app_name">appcantemplate</string>
+    <string name="back">Back</string>
+    <string name="confirm">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="prompt">Prompt</string>
+    <string name="complete">complete</string>
+    <string name="path_error">Path error!</string>
+    <string name="settings">Settings</string>
+    <string name="save">Save</string>
+
+    <!-- browser use -->
+    <string name="browser_exitdialog_app_text">exit application?</string>
+    <string name="browser_exitdialog_msg">Exit Application</string>
+    <string name="browser_dialog_error">Error</string>
+    <string name="browser_init_error">Application broken!</string>
+    <string name="widgetone_version">4030.1.02.001.00.00.9999.000</string>
+
+    <!-- WidgetOne use -->
+    <string name="can_not_find_suitable_app_perform_this_operation">can not  find app perform this operation</string>
+    <string name="exit">exit</string>
+    <string name="confirm_delete">confirm delete</string>
+    <string name="ma">ma?</string>
+    <string name="exit_message_server">app stop server</string>
+    <string name="exit_message_appid">app id forbidden</string>
+    
+
+
+    <string name="plugin_control_date">data</string>
+    <string name="plugin_control_time">time</string>
+
+    <!-- widgetone plugin fileexplorer use -->
+    <string name="plugin_mms_not_support_this_type_file_to_attchment">unsupport file type!</string>
+    <string name="plugin_mms_not_support_file_path">unsupport file path!</string>
+    <string name="plugin_video_video_load_fail">video load fail!</string>
+    <string name="plugin_video_record_video">record video</string>
+    <string name="plugin_video_can_not_support_this_format_video_playback">unsupport media format!</string>
+    <string name="plugin_video_stream_media_server_occur_error">media server error!</string>
+    <string name="plugin_video_mediaplayer_occur_unknown_error">unknown exception!</string>
+    <string name="plugin_video_player_video_can_not_seek">can not  seek this video</string>
+    <string name="plugin_video_player_audio_and_video_may_be_not_sync">audio and video may be not sync</string>
+    <string name="plugin_video_player_unknown_meida_info">unknown media info!</string>
+    <string name="plugin_video_player_video_file_damage">video file damage!</string>
+    <string name="plugin_video_player_player_state_call_error">player state call error!</string>
+    <string name="plugin_video_file_path_is_not_exist">file path is not exist!</string>
+    <string name="plugin_video_file_now_loading_please_wait">Loading,please wait...</string>
+    <string name="plugin_video_recorder_play">play</string>
+    <string name="plugin_video_recorder_record">record</string>
+    <string name="plugin_video_recorder_stop">stop</string>
+    <string name="plugin_video_recorder_re_record">record</string>
+     <!-- audio plugin use string -->
+    <string name="plugin_audio_recoreder_recorder">recorder</string>
+    <string name="plugin_audio_recorder_prepare_record">prepare</string>
+    <string name="plugin_audio_recorder_now_recording">recording...</string>
+    <string name="plugin_audio_recorder_now_saving_record">save record...</string>
+    <string name="plugin_audio_recorder_sdcard_free_space_not_enough">sdcard space not enough!</string>
+    <string name="plugin_audio_play_pause">pause</string>
+    <string name="plugin_audio_recorder_record_audio">record audio</string>
+    <string name="plugin_audio_recorder_start_record_fail">start Recorder fail!</string>
+    <string name="plugin_audio_recorder_init_audio_player_fail">init Player fail!</string>
+    <string name="plugin_audio_recorder_can_not_play_this_audio_file">unsupport audio format!</string>
+    <string name="plugin_audio_recorder_please_stop_record_before_select_clip">please stop record before select clip!</string>
+    <string name="plugin_audio_no_open_error">file can not  open</string>
+    <string name="plugin_audio_parameter_error">parameter error</string>
+    
+    <string name="plugin_file_now_loading_folder">Loading Folder...</string>
+    <string name="plugin_file_can_not_open_this_folder">can not open this folder!</string>
+    <string name="plugin_file_folder">folder</string>
+    <string name="plugin_file_file">file</string>
+    <string name="plugin_file_not_exist">file not exist!</string>
+    <string name="plugin_file_file_path_error">file path error!</string>
+    <string name="plugin_file_can_not_mount_sdcard">can not mount sdcard!</string>
+    <string name="plugin_file_are_you_sure_to_exit_file_explorer">are you sure to exit file explorer?</string>
+    <string name="plugin_file_now_cancel_operation_please_wait">canceling operation, please wait...</string>
+    <string name="plugin_file_target_directory_is_not_exist_auto_redirect_to_sdcard">invliad path,redirect to sdcard!</string>
+    <string name="plugin_file_input_path_is_not_valid_path_redirect_to_sdcard">invliad path,redirect to sdcard!</string>
+    <!-- audio plugin use string -->
+    <string name="plugin_muisc_info_yes">yes</string>
+    <string name="plugin_audio_info_nofile">unsupport file type</string>
+
+    <!-- concact use string -->
+    <string name="plugin_contact_add_succeed">add success</string>
+    <string name="plugin_contact_add_fail">add fail</string>
+    <string name="plugin_contact_delete_succeed">delete success</string>
+    <string name="plugin_contact_delete_fail">delete fail</string>
+    <string name="plugin_contact_find_succeed">find success</string>
+    <string name="plugin_contact_find_fail">find fail</string>
+    <string name="plugin_contact_modify_succeed">modify success</string>
+    <string name="plugin_contact_modify_fail">modify fail</string>
+    <string name="plugin_contact_open_fail">open contacts fail!</string>  
+    <string name="plugin_contact_add_prompt">whether add contacts people</string>
+    <string name="plugin_contact_delete_prompt">whether delete contacts people</string>
+    <string name="plugin_contact_modify_prompt">whether modify contacts people</string>
+    
+    <!-- limits power -->
+    <string name="no_have_read_limits_power">no permisson read</string>
+    <string name="no_have_write_limits_power">no permisson write</string>
+    <string name="plugin_call_call_phone">call phone</string>
+    <string name="plugin_mms_are_you_sure_to_send_sms">confirm to send sms?</string>
+    <string name="plugin_email_send_email">send email</string>
+    <string name="plugin_email_attchment_is_not_exist">attchment is not exist!</string>
+    <string name="plugin_email_attchment_path_params_error">attchment path not exist!</string>
+    <string name="plugin_common_params_error">params error!</string>
+    <string name="plugin_image_browser_undefine_image_url">undefine image url!</string>
+    <string name="plugin_image_browser_url_arguments_error">url arguments error!</string>
+    <string name="plugin_image_browser_now_loading_image">loading image...</string>
+    <string name="plugin_image_browser_load_image_fail">load image fail！</string>
+    <string name="plugin_image_browser_system_have_not_return_image_path">no path return!</string>
+    <string name="plugin_image_browser_are_you_sure_to_exit_image_broswer">confirm to exit?</string>
+    <string name="plugin_image_browser_download_is_canceled">download is canceled</string>
+    <string name="plugin_image_borwser_now_saving_image_please_wait">save image,please wait...</string>
+    <string name="plugin_image_browser_sd_have_not_mount_so_can_not_save">sdcard no mount,can not save!</string>
+    <string name="plugin_image_browser_save_fail">save fail!</string>
+    <string name="plugin_image_browser_save_folder">save folder</string>
+    <string name="plugin_image_browser_image_have_not_load_can_not_save">image have not  load,can not save!</string>
+    <string name="plugin_image_browser_photo">photo</string>
+    <string name="plugin_common_no_permisson_declare">no permisson declare</string>
+
+    <!-- plugin myspace  use -->
+    <string name="plugin_myspace_app_center">AppCenter</string>
+    <string name="plugin_myspace_recommend_apps">Recommend Apps</string>
+    <string name="plugin_myspace_my_apps">My Apps</string>
+    <string name="plugin_myspace_pull_to_refresh">pull to refresh</string>
+    <string name="plugin_myspace_release_to_refresh">release to refresh</string>
+    <string name="plugin_myspace_loading">loading...</string>
+    <string name="plugin_myspace_tap_to_refresh">tap to refresh</string>
+
+    <!-- error callback use string -->
+    <string name="error_parameter">parameter error!</string>
+    <string name="error_sdcard_is_not_available">sdcard is not avaliable!</string>
+     <string name="error_file_does_not_exist">file does not exist</string>
+     
+      <!-- error no permisson -->
+    <string name="error_no_permisson_RW">no permisson read</string>
+    <string name="error_no_permisson_INTERNET">no permission write</string>
+</resources>

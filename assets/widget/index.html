@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	
+	<script type="text/javascript">
+
+	function funcD1(opCode, dataType, data){
+		document.getElementById('f1').innerHTML = "以下是Native plugin返回的值：<br><p style='color:red;'>" + data + "</p>";
+	}
+	
+	function funcD3(opCode, dataType, data){
+		document.getElementById('f3').innerHTML = "以下是用户输入的返回的值：<br>" + data;
+	}
+	
+	function onCb(info){
+		document.getElementById('f2').innerHTML = "以下是onCallBack的返回值：<br>" + info;
+	}
+
+	window.uexOnload = function(type){
+		if(type == 0){  
+			uexDemo.cbStartActivityForResult = funcD1;
+			uexDemo.cbTest_showInputDialog = funcD3;
+			uexDemo.onCallBack = onCb;
+		}
+	}
+	
+	function openv(){
+		var time = document.getElementById("time").value;
+		uexDemo.test_vibrator(time);
+	}
+	
+	function openMyView(){
+		var x = document.getElementById("x").value;
+		var y = document.getElementById("y").value;
+		var w = document.getElementById("w").value;
+		var h = document.getElementById("h").value;
+		uexDemo.test_addMyViewToWindow(x, y, w, h);
+	}
+	
+</script>
+</head>
+
+<body>
+	<div class="tit">uexDemo对象</div>
+	<div class="conbor">
+		<div class="consj">
+		
+			<span>1.test_startActivityForResult接口</span>
+			<div class="tcxx" id="f1">
+			此接口将打开一个自定义的activity：HelloAppCanNative，并获取其操作后的返回值。
+			</div>
+			<input class="btn" type="button" value="点击调用接口" onclick="uexDemo.test_startActivityForResult();"><br><br>
+			
+			<span>2.test_vibrator接口</span>
+			<div class="tcxx" id="f2">
+			此接口将调用设备的震动，需输入震动时间，单位为毫秒
+			</div>
+			<span>请输入时间</span>
+			<input class="textbox" type="text" id="time" value="3000">
+			<input class="btn" type="button" value="点击调用接口" onclick="openv();"><br><br>
+			
+			<span>3.test_showInputDialog接口</span>
+			<div class="tcxx" id="f3">
+			此接口将打开一个自定义的输入框，并获取其操作后的返回值。
+			</div>
+			<input class="btn" type="button" value="点击调用接口" onclick="uexDemo.test_showInputDialog('这是默认值');"><br><br>
+			
+			<span>4.test_addMyViewToWindow接口</span>
+			<div class="tcxx">
+			此接口将打开一个自定义的View添加到当前屏幕上。
+			</div>
+			<span>x:</span>
+			<input class="textbox" type="text" id="x" value="0">
+			<span>y:</span>
+			<input class="textbox" type="text" id="y" value="0">
+			<span>width:</span>
+			<input class="textbox" type="text" id="w" value="200">
+			<span>height:</span>
+			<input class="textbox" type="text" id="h" value="200">
+			<input class="btn" type="button" value="点击调用接口" onclick="openMyView();"><br><br>
+			
+			<span>5.test_removeMyViewFromWindow接口</span>
+			<div class="tcxx" >
+			此接口将从屏幕上移除刚刚打开的自定义View。
+			</div>
+			<input class="btn" type="button" value="点击调用接口" onclick="uexDemo.test_removeMyViewFromWindow();"><br><br>
+			
+		</div>
+	</div>
+</body>
+</html>

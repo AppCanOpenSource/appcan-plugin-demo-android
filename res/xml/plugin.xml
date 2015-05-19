@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+	<plugin
+        className="com.test.EUExTestObject" uexName="uexDemo" >
+        <method name="test_startActivityForResult" />
+        <method name="test_vibrator" />
+        <method name="test_showInputDialog" />
+        <method name="test_addMyViewToWindow" />
+        <method name="test_removeMyViewFromWindow" />
+    </plugin>
+</uexplugins>

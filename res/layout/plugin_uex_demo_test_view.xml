@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center"
+	android:background="#FFFFFFFF">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="这是我的自定义View"
+		android:textColor="#FF00ff00" android:gravity="center" />
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="我是一个Button"
+		android:textColor="#FF00ff00" android:gravity="center" />
+	<ImageView android:id="@+id/my_icon" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textColor="#FF00ff00"
+		android:gravity="center" />
+</LinearLayout>

@@ -35,10 +35,15 @@
     <string name="browser_init_error">程序不完整</string>
 
     <string name="appkey">26cf1a0e-6d52-41aa-bb54-f4efe8a35d33</string>
+    <string name="appstatus">4A0D7476B2A39662BE3B27</string>
     <string name="push">true</string>
-    
-    <!-- update use -->
-    <string name="update_host">http://192.168.1.82:8080/store/app/upgrade/</string>
+    <string name="certificate_psw"></string>
+    <string name="widget_startup_report_host">http://newdc.appcan.cn/</string>
+    <string name="push_host">newpush.appcan.cn:1883</string>
+    <string name="bindUser_host">http://newpush.appcan.cn/</string>
+    <string name="analytics_host">http://newdc.appcan.cn/</string>
+    <string name="mam_host">http://newdc.appcan.cn/</string>
+    <string name="mam_push_host_and_port">newpush.appcan.cn:1883</string>
 
     <!-- platform myspace  use -->
     <string name="platform_myspace_app_center">应用中心</string>

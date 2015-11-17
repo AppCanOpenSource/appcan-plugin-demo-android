@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dip"
             android:cacheColorHint="@android:color/transparent"
-            android:background="@null"
+            android:divider="@color/transparent"
             android:dividerHeight="0dip"
             android:listSelector="@android:color/transparent" >
         </ListView>

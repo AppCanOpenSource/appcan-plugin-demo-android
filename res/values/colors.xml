@@ -18,4 +18,7 @@
 	<color name="widget_dialog_title_line_color">#666666</color>
 	<color name="widget_bg_color">#333333</color>
 	<color name="activity_window_background_color">#60000000</color>
+
+    <!--uexDemo use-->
+    <color name="plugin_uexDemo_textColor">#000000</color>
 </resources>

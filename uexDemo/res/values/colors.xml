@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--uexDemo use-->
+    <color name="plugin_uexDemo_textColor">#000000</color>
+</resources>

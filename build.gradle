@@ -40,21 +40,26 @@ android {
         release.setRoot('build-types/release')
     }
 }
+
+def pluginName="uexDemo"
+def buildConfigPath="org/zywx/wbpalmstar/widgetone/"
+
+def jarDir=pluginName+'/jar/'
+def jarName="plugin_"+pluginName+".jar"
+def jarPath=jarDir+jarName
+
 task clearJar(type: Delete) {
-    delete 'libs/uexBluetoothBLE.jar'
+    delete jarPath;
 }
 
-task makeJar(type:org.gradle.api.tasks.bundling.Jar) {
-    //指定生成的jar名
-    baseName 'uexBluetoothBLE'
-    //从哪里打包class文件
-    from('build/intermediates/classes/debug/')
-    //打包到jar后的目录结构
-    into('')
-    //去掉不需要打包的目录和文件
-    exclude('test/', 'BuildConfig.class', 'R.class')
-    //去掉R$开头的文件
-    exclude{ it.name.startsWith('R$');}
+task makeJar(type:Jar,dependsOn:['compileReleaseJavaWithJavac']) {
+    archiveName jarName
+    from('build/intermediates/classes/release/')
+    destinationDir=file(jarDir)
+    exclude('**/R.class')
+    exclude('**/R\$*.class')
+    exclude('**/BuildConfig.class')
+    exclude(buildConfigPath)
 }
 
-makeJar.dependsOn(clearJar, build)
+makeJar.dependsOn(clearJar)

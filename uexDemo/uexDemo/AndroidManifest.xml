@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright (c) 2016.  The AppCan Open Source Project.
   ~
   ~  This program is free software: you can redistribute it and/or modify
@@ -18,7 +17,8 @@
   ~
   -->
 
-<resources>
-    <!--uexDemo use-->
-    <color name="plugin_uexDemo_textColor">#000000</color>
-</resources>
+<manifest >
+
+    <activity android:name="com.test.HelloAppCanNativeActivity" />
+
+</manifest>

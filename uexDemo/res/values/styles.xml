@@ -19,6 +19,5 @@
   -->
 
 <resources>
-    <!--uexDemo use-->
-    <color name="plugin_uexDemo_textColor">#000000</color>
+
 </resources>
